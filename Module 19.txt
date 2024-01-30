@@ -1,0 +1,27 @@
+*****String ghula immutable. Mane ekbard eclare kora hole kono letter bajh character keh change kroa jhay nah jeita array teh kora jhay.
+
+
+****trim() function kono string er shamne ebong seshe extra white space thakle ei ghula remove korew fele. 
+
+Object holo non-primitive;
+
+const person = {
+  name: "Shawon",
+  age: 25,
+  city: "Islamabad",
+  profession: "Web Developer",
+  salary: 25000,
+  married: false,
+  'fav places':["Chandpur","Comilla"]
+};
+console.log(person);
+console.log(`Your profession: ${person.profession}`);
+
+console.log(person["name"]);
+console.log(person['fav places'])
+
+
+
+Object ehh naturally dot diye attribute name use kore access kora jhay kintu ei khetre attribute er nam tayh valid howa lagbe. 
+
+jodi nam tay white space thake bah special character thake seh khetre bracket notation chara access kora possible nah
